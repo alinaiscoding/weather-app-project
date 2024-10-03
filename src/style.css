@@ -1,0 +1,15 @@
+.weather-app {
+  max-width: 700px;
+  margin: 50px auto 50px;
+  padding: 40px 35px 40px 35px;
+  display: block;
+  border-radius: 50px;
+  background: #e5f3fe;
+  box-shadow: 5px 5px 10px #cee3f2, -5px -5px 10px #faffff;
+}
+.container {
+  background-color: #e5f3fe;
+  font-family: "Roboto", sans-serif;
+  color: royalblue;
+  padding: 50px 50px 50px 50px;
+}
