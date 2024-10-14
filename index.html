@@ -12,29 +12,29 @@
 
     <title>Weather App</title>
   </head>
+
   <body>
     <div class="container">
       <div class="weather-app">
-        <h1>New York City</h1>
-        <ul>
-          <li>Saturday 8:08</li>
-          <li>Rainy</li>
-        </ul>
-        <div class="row">
-          <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-              alt="Rainy"
-            />
-            18°C | °F
+        <header>
+          <form>
+            <input type="search" placeholder="Enter a city.." required />
+            <input type="submit" value="Search" />
+          </form>
+        </header>
+        <main>
+          <div>
+            <h1>New York City</h1>
+            <p>
+              Sunday 19:26, scattered clouds
+              <br />
+              Humidity: 66%, Wind 3:13km/h
+            </p>
           </div>
-          <div class="col-6">
-            <ul>
-              <li>Precipitation: 0%</li>
-              <li>Humidity: 70%</li>
-              <li>Wind: 73 km/h</li>
-            </ul>
-          </div>
+          <div>🌤️ 12°C</div>
+        </main>
+
+        <footer>
           <small>
             <a
               href="https://github.com/alinaiscoding/vanilla-weather-app"
@@ -42,9 +42,10 @@
               >Open-source code</a
             >, by Alena Pavlova
           </small>
-        </div>
+        </footer>
+
+        <script src="src/app.js"></script>
       </div>
-      <script src="src/app.js"></script>
     </div>
   </body>
 </html>
