@@ -53,14 +53,15 @@ main {
   display: flex;
 }
 .weather-app-icon {
-  font-size: 33px;
-  margin-top: 25px;
+  width: 70px;
+  height: 70px;
 }
 .weather-app-temperature {
-  font-size: 65px;
+  font-size: 70px;
+  line-height: 88px;
 }
 .weather-app-unit {
-  margin-top: 16px;
+  margin-top: 10px;
   font-size: 28px;
 }
 footer {
