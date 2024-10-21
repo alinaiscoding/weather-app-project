@@ -4,11 +4,12 @@
   color: royalblue;
   padding: 50px 50px;
   margin: 20px 20px;
+  box-shadow: 5px 5px 10px #cee3f2, -5px -5px 10px #faffff;
 }
 .weather-app {
   max-width: 700px;
   margin: 20px auto;
-  padding: 40px 35px;
+  padding: 110px 35px;
   display: block;
   border-radius: 50px;
   background: #e5f3fe;
